@@ -9,7 +9,7 @@
 clear
 
 # [ Hosting Tempat File Tersimpan ]
-link="www.rerechan02.com"
+link="www.github.com/KurosakiTG/V2/blob/main/"
 
 # // Membuat Koneksi Database
 if [[ -z $(cat /etc/resolv.conf | grep "1.1.1.1") ]]; then cat <(echo "nameserver 1.1.1.1") /etc/resolv.conf > /etc/resolv.conf.tmp && mv /etc/resolv.conf.tmp /etc/resolv.conf; fi
